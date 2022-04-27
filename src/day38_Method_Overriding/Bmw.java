@@ -3,7 +3,7 @@ package day38_Method_Overriding;
 public class Bmw extends Car {
 
     public Bmw(String brand, String model, String color, int year, int price, int miles) {
-        super(brand, model, color, year, price, miles);
+        super("BMW", model, color, year, price, miles);
     }
 
     public void breaksDown() {
