@@ -13,7 +13,7 @@ public class Car {
         this.miles = miles;
     }
 
-    public void start(){
+    void start(){
         System.out.println(brand +" "+ model+" "+color+ " "+year +" "+price+" "+miles+" is starting.");
 
     }
